@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golden-path-final-test
+  description: Use one completely fresh service and make no manual repo changes unless the test proves the platform still requires one.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/developer-experience
